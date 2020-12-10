@@ -78,7 +78,7 @@ Uniquely during the COVID-19 pandemic we have a health issue, a political issue 
 
 # Data and Methodology:
 
-The New York Times has done much of the hard work for data acqusition, regularlly compiling daily and weekly COVID metrics. 
+The New York Times has done much of the hard work for data acqusition, regularly compiling daily and weekly COVID metrics. 
 
 Our process for Exploratory Data Analysis was an open ended search in finding the story inside the data as follows:
 
@@ -106,31 +106,19 @@ Looking at mask sentiment vs percent change, we can see a weak linear correlatio
 
 To emphasize this, our team deployed 3 interactive apps to Heroku that can be used right now:
 
-<<<<<<< HEAD
-## [US COVID Snapshots](https://dsir824-covid19-example.herokuapp.com)
-=======
 ## [US Nationwide COVID-19 Snapshots](https://dsir824-covid19-example.herokuapp.com)
->>>>>>> cd19949a6567fd26e083abed55cada10fb954e86
 ![img](assets/gifs/vivian_app.gif)
 * [Heroku: US Covid Metric Snapshots](https://dsir824-covid19-example.herokuapp.com)
     * [Source Code](https://github.com/ga-dsir824-collab/covid19-over-time)
     * This is a choropleth map of the United States comparing true metrics to proportional metrics over time. The map shows that this goes from a state-to-state. 
     
-<<<<<<< HEAD
-## [Plotting COVID-19 Rates](https://covid-plot-states.herokuapp.com)
-=======
 ## [Multi-State COVID-19 Visualization](https://covid-plot-states.herokuapp.com)
->>>>>>> cd19949a6567fd26e083abed55cada10fb954e86
 ![img](assets/images/alex_app.png)
 * [Heroku: Plotting COVID-19 Rates](https://covid-plot-states.herokuapp.com)
     * [Source Code](https://github.com/ga-dsir824-collab/multi-state-covid-plot)
     * This is an interactive line plot of comparing actual state by state COVID metrics.
 
-<<<<<<< HEAD
-## [Plotting Daily Changes in COVID Cases](http://covid-by-state.herokuapp.com)
-=======
-## [Plotting COVID-19 by State](http://covid-by-state.herokuapp.com)
->>>>>>> cd19949a6567fd26e083abed55cada10fb954e86
+## [Applying Hidden Markov Model to Daily COVID Case Rate](http://covid-by-state.herokuapp.com)
 ![img](assets/images/varun_app.png)
 * [Heroku: Plotting Daily Changes in COVID Cases](http://covid-by-state.herokuapp.com)
     * [Source Code](https://github.com/ga-dsir824-collab/COVID-19-by-State-App)
